@@ -81,7 +81,7 @@ bot.start((ctx) => {
         .catch((error) => {
             console.log('Error saving user to database:', error);
         });
-    ctx.reply('Welcome to the WEATHER UPDATE bot!\nget the weather information of a particular city of your choice... \n\n\nTap /help - To Get help with commands');
+    ctx.reply('Welcome to the WEATHER UPDATE bot!\nget the weather information of a particular city of your choice... \n\n\nTap /help - To Get help with commands\n\n\nArnab Dey\nhttps://github.com/ArnabDey1543\nhttps://www.linkedin.com/in/arnab-dey-478597288/');
 });
 
 // Handling "/subscribe" command
