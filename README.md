@@ -19,39 +19,6 @@ This is a Telegram bot that provides weather updates for cities. Users can subsc
 - Get User's usernames
 - Get Usage Statistics
 
-## Installation
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/Rajeshds20/weather-telegram-bot.git
-   ```
-
-2. Install the dependencies:
-
-   ```shell
-   cd weather-telegram-bot
-   npm install
-   ```
-
-3. Configure environment variables:
-
-   - Create a `.env` file in the project root directory.
-   - Add the following environment variables:
-
-     ```dotenv
-     BOT_TOKEN=your-telegram-bot-token
-     WEATHER_API_KEY=your-openweathermap-api-key
-     MONGO_URI=your-mongodb-connection-string
-     PORT=your-port-number
-     ```
-
-4. Start the application:
-
-   ```shell
-   npm start
-   ```
-
 5. Open Telegram and search for your bot by its username.
 6. Start a conversation with the bot and use the available commands.
 
@@ -70,12 +37,6 @@ This is a Telegram bot that provides weather updates for cities. Users can subsc
 - Telegraf (Telegram Bot Framework)
 - Axios (HTTP requests)
 
-## Creators
 
-- Rajesh 
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to contribute and make this Telegram bot even better!
