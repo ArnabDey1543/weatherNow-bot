@@ -17,6 +17,7 @@ const router = require('./routes/dataRoute.js');
 let isListening = false;
 
 
+
 // configure dotenv
 dotenv.config();
 
